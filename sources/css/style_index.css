@@ -1,7 +1,26 @@
 h1 {
+  width: 100%;
   margin: 0;
   color: blue;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 5.5em;
+  text-align: center;
+}
+h2 {
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: blue;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-transform: capitalize;
+  text-align: center;
+}
+h2:hover {
+  background-color: cyan;
+}
+h2.cslb {
+  font-size: 1.6em;
+  text-align: center;
+  color: coral;
 }
 header {
   width: 100%;
@@ -15,38 +34,43 @@ header {
   background-position: top center;
 }
 .casserole {
-  width: 30%;
-  height: auto;
+  width: 200px;
   padding: 10px;
   margin: 0 auto;
   border: 5px solid;
   background-color: white;
-  color: blue;
+  color: purple;
   font-size: medium;
+  flex: 1 1 25%;
+  box-sizing: border-box;
 }
 span {
   color: red;
   font-size: 1.1em;
 }
-span1 {
+span-1 {
   color: seagreen;
   font-size: x-large;
-span-c {
+  span-c {
     text-transform: uppercase;
-    color:orange;
+    color: orange;
   }
 }
-button1 {
+button-1 {
   font-size: large;
   padding: 5px;
   border: 4px solid blue;
   border-radius: 5px 10px 5px 10px;
   background-color: chocolate;
-}button2 {
+}
+button-2 {
   padding: 5px;
   border: 3px solid;
   border-radius: 5px 10px 5px 10px;
   background-color: greenyellow;
+}
+button-2:hover {
+  background-color: rgb(255, 217, 0);
 }
 
 h1 {
@@ -57,7 +81,15 @@ img {
 }
 /*SECTION-B STARTS BELOW*/
 .pics-n {
+  width: 90%;
+  margin: 0 auto;
+  border: 10px solid orange;
   display: flex;
+  gap: 5px;
+  flex: 1 1 30%;
 }
-
 /*SECTION-B ENDS ABOVE*/
+footer {
+  text-align: right;
+  color: rgba(255, 160, 122, 0.253);
+}
