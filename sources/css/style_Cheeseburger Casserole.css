@@ -1,5 +1,5 @@
 html {
-  background-color: rgb(250, 193, 118);
+  background-color: rgb(199, 171, 134);
   margin: 0;
   padding: 0;
 }
@@ -29,7 +29,7 @@ h1 {
   float: left;
   display: block;
   margin-left: 0 auto;
-  padding: 0;
+  padding: 20px;
   text-align: center;
 }
 .nav-bar li a {
@@ -45,4 +45,15 @@ h1 {
 .bold {
   font-size: 1.25em;
   font-weight: bolder;
+}
+img .chopped {
+  width: 1%;
+  height: auto;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: rgba(255, 166, 0, 0.507);
+  color: rgba(184, 135, 11, 0.192);
 }
