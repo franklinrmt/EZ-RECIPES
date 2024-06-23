@@ -1,13 +1,48 @@
-header {
+html {
+  background-color: rgb(250, 193, 118);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
   color: orange;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-h1 {
   text-align: center;
-  font-size: 2.25em;
+  font-size: 4.5em;
+}
+.small {
+  width: 25%;
+  margin: 0 auto;
 }
 /*NAV STYLING STARTS BELOW*/
-li > .a {
-  text-decoration: none;
+/*START SITE NAV*/
+.nav-bar {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+.nav-bar li {
+  color: crimson;
   list-style: none;
+  float: left;
+  display: block;
+  margin-left: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+.nav-bar li a {
+  padding: 5px 20px;
+  margin: 0;
+  padding: 20px;
+}
+
+/*END SITE NAV*/
+.clear {
+  clear: both;
+}
+.bold {
+  font-size: 1.25em;
+  font-weight: bolder;
 }

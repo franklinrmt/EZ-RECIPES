@@ -1,3 +1,10 @@
+html {
+  background-color: burlywood;
+}
+
+
+
+
 h1 {
   width: 100%;
   margin: 0;
@@ -7,10 +14,10 @@ h1 {
   text-align: center;
 }
 h2 {
-  font-size: 1.5em;
+  font-size: 1.20em;
   font-weight: bolder;
   color: blue;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
   text-transform: capitalize;
   text-align: center;
 }
@@ -33,13 +40,48 @@ header {
   background-size: cover;
   background-position: top center;
 }
+/*START SITE NAV*/
+.nav-bar {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  
+}
+
+.nav-bar li {
+  list-style: none;
+  float: left;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: 0 auto;
+  padding:  0;
+  text-align: center;
+  
+  
+}
+.nav-bar li a {
+  padding: 5px 20px;
+  margin:0; 
+  padding: 20px;;
+  
+  
+  
+}
+
+
+/*END SITE NAV*/
+
 .casserole {
   width: 200px;
   padding: 10px;
   margin: 0 auto;
-  border: 5px solid;
+  /*border: 5px solid;*/
   background-color: white;
-  color: purple;
+  
   font-size: medium;
   flex: 1 1 25%;
   box-sizing: border-box;
@@ -65,8 +107,9 @@ button-1 {
 }
 button-2 {
   padding: 5px;
-  border: 3px solid;
-  border-radius: 5px 10px 5px 10px;
+  margin-top: 10px;
+  border: 1px solid;
+  border-radius: 15px 10px 15px 10px;
   background-color: greenyellow;
 }
 button-2:hover {
@@ -83,10 +126,12 @@ img {
 .pics-n {
   width: 90%;
   margin: 0 auto;
-  border: 10px solid orange;
+  /*border: 5px solid orange;*/
   display: flex;
+ 
+  justify-content: space-between;
   gap: 5px;
-  flex: 1 1 30%;
+  flex: 1 1 25%;
 }
 /*SECTION-B ENDS ABOVE*/
 footer {
